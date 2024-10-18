@@ -1,0 +1,169 @@
+login screen(initial screen)
+
+
+
+Username(user needs to put there email)
+Password(user needs to enter there password)
+
+"Login" Button(if clicked and information for username and password correct go to 4th screen if wrong give error message)
+
+"Forgot passowrd" Button(clicking this will take you to 2nd screen)
+
+
+"Create Account" Button(clicking this will take you to 3rd screen)
+
+--------------------------------------------------------------------------------------------------------------------
+Enter username(2nd screen)
+
+Enter username
+
+passoword(user has to put password they want)
+confirm password(user has to put same passoword they put above in password)
+
+
+"Submit information" Button( will check if information entered above is  correct if it is it take you back to initial screen if wrong stay on this screen and error shows up)
+
+"Go back" Button (if clicked will take you back to first page)
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+Enter Account number(3rd screen)
+
+ask for username(which will be email)
+passoword(user has to put password they want)
+confirm password(user has to put same passoword they put above in password)
+
+
+"Submit information" Button( will check if information entered above is  correct if it is it take you back to initial screen if wrong stay on this screen and error shows up)
+
+"Go back" Button (if clicked will take you back to first page)
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+ Muscle Groups(4th screen when succefully logged in)
+
+This will show ALL the muscle groups
+from here user can select muscle groups they want 
+
+when specfic muscle group is clicked will take them to next page
+
+will also have 
+
+"Logout" button 
+
+--------------------------------------------------------------------------------------------------------------------
+Specfic muscle group screen 5th screen
+
+this will have search bar at top to search for excersice within said Specfic muscle group 
+
+will also be able to scroll through to see different excrsices for said specfic msucle group 
+
+once excersice wanted is found click on it to go to next page
+
+"Go back" button (if clicked will take to 4th screen Muscle groups)
+
+--------------------------------------------------------------------------------------------------------------------
+Exersice slected for Specfic muscle group screen 6th screen
+
+at the top name of excersice and picture
+
+
+"Add sets" Button( take you to another screen)
+
+"Progress" Button ( take you to another screen)
+
+"Go back" button (if clicked will take to 5th specfic Muscle groups screen)
+
+--------------------------------------------------------------------------------------------------------------------
+
+Add sets
+
+
+user inputs:
+
+Todays Date
+
+set number
+
+weight used
+
+reps done
+
+"Enter information" Button (all inputs need to be entered if not error message. If they are inputted it will be saved in a visual table. Tables will be split by date. User should now be able to see what they inputted in "Progress". After clicking this button they should be taken back to "Exersice slected for Specfic muscle group screen 6th screen" with a pop up appearing letting them now the information inputted was saved succefully.)
+
+"Go back" button (if clicked will take to Exersice slected for Specfic muscle group screen 6th screen)
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+Progress Screen
+
+
+This will show history of the users progress with this excersice
+
+so will show all past user inputs for this specfic excersice
+
+so nothing to input here user can just scroll to look at its history
+
+"Go back" button (if clicked will take to Exersice slected for Specfic muscle group screen 6th screen)
+
+
+
+CHAT GPT ANALYSIS  
+You've made significant progress in outlining the structure and flow of your workout tracking app. Your detailed description of each screen and their functionalities provides a clear roadmap for the app's user interface and user experience design. Let's review and refine these steps to ensure a smooth development process:
+
+### 1. **Login Screen (Initial Screen)**
+- **Features**: Username (email) and password fields, login, forgot password, and create account buttons.
+- **Functionality**: Validate login credentials, navigate to account recovery or account creation screens as needed.
+- **Error Handling**: Display error messages for incorrect credentials or issues.
+
+### 2. **Forgot Password Screen**
+- **Features**: Fields for username (email), new password, and password confirmation.
+- **Functionality**: Enable users to reset their password. Validate the new password and confirmation match.
+- **Navigation**: Submit information to reset password and return to the login screen, or go back without changes.
+
+### 3. **Create Account Screen**
+- **Features**: Fields for username (email), password, and password confirmation.
+- **Functionality**: Account creation with validation for email format and password confirmation.
+- **Navigation**: Submit to create a new account and return to the login screen, or option to go back.
+
+### 4. **Muscle Groups Screen**
+- **Features**: List of muscle groups, logout button.
+- **Functionality**: Select a muscle group to navigate to specific exercises. Implement logout functionality.
+- **User Experience**: Ensure easy navigation and clear categorization of muscle groups.
+
+### 5. **Specific Muscle Group Screen**
+- **Features**: Search bar, list of exercises for the selected muscle group, back button.
+- **Functionality**: Search and select specific exercises. Navigate back to muscle groups screen.
+
+### 6. **Exercise Selected Screen**
+- **Features**: Exercise name and picture, buttons for adding sets, viewing progress, and going back.
+- **Functionality**: Navigate to add sets or view progress screens. Return to the specific muscle group screen.
+
+### 7. **Add Sets Screen**
+- **Features**: Inputs for date, set number, weight, and reps. Enter button and back button.
+- **Functionality**: Validate inputs, save data, and update the progress screen. Confirmation pop-up after saving.
+- **Data Management**: Ensure data is stored correctly and retrievable for the progress screen.
+
+### 8. **Progress Screen**
+- **Features**: Display of historical data for the selected exercise.
+- **Functionality**: No input required; users scroll to view their workout history.
+- **User Experience**: Present data in an organized, easy-to-read format, possibly with visual aids like graphs or tables.
+
+### Next Steps in Development:
+- **Wireframing**: Create more detailed wireframes for each screen based on these descriptions.
+- **Frontend Development**: Start building the UI according to the wireframes.
+- **Backend Development**: Implement the logic for user authentication, data storage, and retrieval.
+- **Testing**: Continuously test each screen for functionality and user experience.
+
+### Tips:
+- **User Feedback**: Keep the user interface simple and intuitive. Consider getting feedback on your designs from potential users.
+- **Responsive Design**: Ensure the app is responsive and looks good on various screen sizes.
+- **Security**: Pay attention to security aspects, especially for user authentication and data privacy.
+
+By following these steps and focusing on a user-centered design, you can develop an effective and engaging workout tracking app. Remember, iterative development and user feedback are key to creating a successful app.
+ 
+
